@@ -1,11 +1,11 @@
 :root {
-  --color-primary: #00bcd4;
+  --color-primary: #5e22c7;
   --color-secondary: #fafafa;
 
-  --color-primary-dark: #0097a7;
-  --color-primary-light: #00bcd4;
-  --color-secondary-dark: #fafafa;
-  --color-secondary-light: #fafafa;
+  /* --color-primary-dark: #0097a7; */
+  --color-primary-light: #8f59ee;
+  /* --color-secondary-dark: #fafafa;
+  --color-secondary-light: #fafafa; */
 
   --color-primary-text: #ffffff;
   --color-secondary-text: #212121;
@@ -21,8 +21,7 @@
   --color-secondary-text-hint: #bdbdbd;
 }
 body {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--color-primary);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -30,24 +29,12 @@ body {
   padding: 0;
 }
 .navbar {
-  background-color: #f4511e;
   overflow: hidden;
 }
-.row {
-  display: flex;
-  flex-direction: row;
-}
-.column {
-  display: flex;
-  flex-direction: column;
-}
 
-.space-between {
-  justify-content: space-between;
-}
 .logo {
   font-size: 1.5em;
-  color: #f4511e;
+  color: var(--color-primary-text);
 }
 .search-bar {
   height: 50px;
@@ -78,31 +65,26 @@ body {
   font-size: 1.5em;
   color: #f4511e;
 }
-.left-30 {
-  width: 30%;
-}
-.right-70 {
-  width: 70%;
-}
-
+/* 
 .main-system {
   background-color: #f4511e;
 }
 .integration {
   background-color: #f4511e;
-}
+} */
 .btn {
-  background-color: #f4511e;
-  color: #f4511e;
-  border: 1px solid #f4511e;
+  background-color: var(--color-primary);
+  color: var(--color-primary-text);
+  border: 1px solid var(--color-primary);
   border-radius: 25px;
-  padding: 0 20px;
-  font-size: 1.5em;
-  color: #f4511e;
+  padding: 10px 20px;
+  font-size: 1.3em;
+  transition: 0.2s ease all;
 }
-.full-width {
-  width: webkit-fill-available;
+.btn:hover {
+  background-color: var(--color-primary);
 }
+
 .select-date {
   height: 50px;
   border-radius: 25px;
