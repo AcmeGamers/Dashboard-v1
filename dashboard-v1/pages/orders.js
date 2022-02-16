@@ -12,7 +12,7 @@ export default function Orders() {
       {/* <!-- Body Content --> */}
       <div id="body-content" className="row">
         <Card_25 isActive="orders" />
-        <Card_75>
+        <Card_75 title="Orders">
           <h1>Hello World</h1>
           <h1>Hello World</h1>
         </Card_75>

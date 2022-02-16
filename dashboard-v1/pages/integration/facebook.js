@@ -12,7 +12,7 @@ export default function Facebook() {
       {/* <!-- Body Content --> */}
       <div id="body-content" className="row">
         <Card_25 isActive="facebook" />
-        <Card_75>
+        <Card_75 title="Facebook">
           <h1>Hello World</h1>
           <h1>Hello World</h1>
         </Card_75>
