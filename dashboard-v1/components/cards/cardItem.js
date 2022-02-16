@@ -1,7 +1,9 @@
+// Purpose, It is just used to pass links to the left navigation bar.
+
 import Link from "next/link";
 export default function CardItem(props) {
   var data;
-  console.log(props.name);
+
   switch (props.name) {
     case "Dashboard":
       data = "/";
