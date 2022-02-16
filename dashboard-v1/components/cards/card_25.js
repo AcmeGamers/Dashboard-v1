@@ -1,5 +1,6 @@
 // import List from "";
 import CardItem from "./cardItem";
+import Link from "next/link";
 export default function Card_25(props) {
   var dashboard = props.isActive == "dashboard" ? "active" : "",
     orders = props.isActive == "orders" ? "active" : "",
@@ -49,7 +50,9 @@ export default function Card_25(props) {
 
           <CardItem name="Mailchimp" class="fa fas mail" isActive={mailchimp} />
         </div>
-        <button className="btn full-width">Add more integration</button>
+        <Link href="/integration/add">
+          <button className="btn full-width">Add more integration</button>
+        </Link>
       </div>
     </>
   );

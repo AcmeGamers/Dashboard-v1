@@ -70,6 +70,9 @@ body {
   font-size: 1em;
   color: #f4511e;
 }
+hr {
+  border-color: #ffffff8f;
+}
 
 /* Inner Content */
 .card {
@@ -81,7 +84,7 @@ body {
   border: 1px solid var(--color-primary);
   border-radius: 25px;
   padding: 10px 20px;
-  font-size: 1.3em;
+  font-size: 1.15em;
   transition: 0.2s ease all;
 }
 .btn:hover {
