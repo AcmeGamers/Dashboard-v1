@@ -16,7 +16,7 @@ export default function Home() {
 
       {/* <!-- Body Content --> */}
       <div id="body-content" className="row">
-        <Card_25 />
+        <Card_25 isActive="dashboard" />
         <Card_75></Card_75>
       </div>
     </>

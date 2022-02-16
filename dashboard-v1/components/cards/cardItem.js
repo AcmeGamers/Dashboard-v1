@@ -1,4 +1,4 @@
-export default function cardItem(props) {
+export default function CardItem(props) {
   return (
     <>
       <div className={"row " + props.isActive}>
