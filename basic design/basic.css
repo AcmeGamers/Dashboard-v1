@@ -79,3 +79,20 @@ body {
 .btn:hover {
   background-color: var(--color-primary);
 }
+
+.main-system div,
+.integration div {
+  padding: 1rem;
+  border-radius: 12px;
+  margin: 10px 0;
+}
+.main-system div:hover,
+.integration div:hover {
+  background: #f3f3f3;
+}
+
+.main-system div.active,
+.integration div.active {
+  font-weight: 800;
+  background: #ebe9e9 !important;
+}
