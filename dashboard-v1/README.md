@@ -3,6 +3,8 @@
 - Filtered Table Data: https://www.w3schools.com/howto/howto_js_filter_table.asp
 - Sorting Table Data: https://www.w3schools.com/howto/howto_js_sort_table.asp
 
+-- more on https://www.w3schools.com/howto
+
 # Next JS
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
