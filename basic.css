@@ -1,0 +1,113 @@
+:root {
+  --color-primary: #00bcd4;
+  --color-secondary: #fafafa;
+
+  --color-primary-dark: #0097a7;
+  --color-primary-light: #00bcd4;
+  --color-secondary-dark: #fafafa;
+  --color-secondary-light: #fafafa;
+
+  --color-primary-text: #ffffff;
+  --color-secondary-text: #212121;
+  --color-primary-text-dark: #ffffff;
+  --color-secondary-text-dark: #212121;
+  --color-primary-text-light: #212121;
+  --color-secondary-text-light: #ffffff;
+
+  --color-primary-text-disabled: #bdbdbd;
+  --color-secondary-text-disabled: #bdbdbd;
+
+  --color-primary-text-hint: #bdbdbd;
+  --color-secondary-text-hint: #bdbdbd;
+}
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #f4511e;
+  overflow: hidden;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.logo {
+  font-size: 1.5em;
+  color: #f4511e;
+}
+.search-bar {
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #f4511e;
+  padding: 0 20px;
+  font-size: 1.5em;
+  color: #f4511e;
+}
+/* #search {
+  
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #f4511e;
+  padding: 0 20px;
+  font-size: 1.5em;
+  color: #f4511e;
+} 
+
+.profile {
+} */
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #f4511e;
+  padding: 0 20px;
+  font-size: 1.5em;
+  color: #f4511e;
+}
+.left-30 {
+  width: 30%;
+}
+.right-70 {
+  width: 70%;
+}
+
+.main-system {
+  background-color: #f4511e;
+}
+.integration {
+  background-color: #f4511e;
+}
+.btn {
+  background-color: #f4511e;
+  color: #f4511e;
+  border: 1px solid #f4511e;
+  border-radius: 25px;
+  padding: 0 20px;
+  font-size: 1.5em;
+  color: #f4511e;
+}
+.full-width {
+  width: webkit-fill-available;
+}
+.select-date {
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #f4511e;
+  padding: 0 20px;
+  font-size: 1.5em;
+  color: #f4511e;
+}
