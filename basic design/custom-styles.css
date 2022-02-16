@@ -27,6 +27,12 @@
 .bg-white {
   background-color: #fff;
 }
+.bg-main {
+  background-color: var(--color-primary);
+}
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
 
 /* Display Type */
 .flex {
@@ -69,6 +75,9 @@
 
 /* heights */
 /* spacing */
+.px0-10-margin {
+  padding: 0 10px;
+}
 .r1-margin {
   margin: 1rem;
 }

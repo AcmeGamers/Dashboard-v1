@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Fragment } from "react";
 import Card_25 from "../../components/cards/card_25";
 import Card_75 from "../../components/cards/card_75";
 
