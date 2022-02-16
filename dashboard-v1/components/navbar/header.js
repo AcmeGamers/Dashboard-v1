@@ -9,6 +9,7 @@ export default function Header() {
         <div className="search-bar">
           <label htmlFor="search">
             <i className="fa fas search"></i>
+
             <input type="text" id="search" placeholder="Search" />
           </label>
         </div>

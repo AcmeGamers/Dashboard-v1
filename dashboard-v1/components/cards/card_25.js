@@ -43,11 +43,7 @@ export default function Card_25(props) {
             class="fa fas facebook"
             isActive={facebook}
           />
-          <CardItem
-            name="Facebook"
-            class="fa fas facebook"
-            isActive={facebook}
-          />
+
           <CardItem name="Mailchimp" class="fa fas mail" isActive={mailchimp} />
         </div>
         <button className="btn full-width">Add more integration</button>
