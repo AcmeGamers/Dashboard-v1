@@ -49,6 +49,7 @@
 .space-between {
   justify-content: space-between;
 }
+
 /* widths */
 .left-30 {
   width: 30%;
@@ -71,12 +72,16 @@
 .r1-margin {
   margin: 1rem;
 }
+.r0-r1-padding {
+  padding: 0 1rem;
+}
 .r2-padding {
   padding: 2rem;
 }
+
 .r2-r4-padding {
   padding: 2rem 4rem;
 }
-.px-60-border-radius {
-  border-radius: 60px;
+.px-35-border-radius {
+  border-radius: 35px;
 }

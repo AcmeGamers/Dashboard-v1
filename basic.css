@@ -19,6 +19,9 @@
 
   --color-primary-text-hint: #bdbdbd;
   --color-secondary-text-hint: #bdbdbd;
+
+  /* Colors */
+  --box-shadow-primary: 5px 10px 10px rgb(0 0 0 / 16%);
 }
 body {
   background-color: var(--color-primary);
@@ -28,6 +31,8 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* Navigation */
 .navbar {
   overflow: hidden;
 }
@@ -36,42 +41,27 @@ body {
   font-size: 1.5em;
   color: var(--color-primary-text);
 }
-.search-bar {
-  height: 50px;
-  border-radius: 25px;
-  border: 1px solid #f4511e;
-  padding: 0 20px;
-  font-size: 1.5em;
-  color: #f4511e;
-}
-/* #search {
-  
-  height: 50px;
-  border-radius: 25px;
-  border: 1px solid #f4511e;
-  padding: 0 20px;
-  font-size: 1.5em;
-  color: #f4511e;
-} 
 
-.profile {
-} */
 .profile-pic {
   width: 50px;
   height: 50px;
   border-radius: 25px;
   border: 1px solid #f4511e;
+}
+
+.select-date {
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #f4511e;
   padding: 0 20px;
   font-size: 1.5em;
   color: #f4511e;
 }
-/* 
-.main-system {
-  background-color: #f4511e;
+
+/* Inner Content */
+.card {
+  box-shadow: var(--box-shadow-primary);
 }
-.integration {
-  background-color: #f4511e;
-} */
 .btn {
   background-color: var(--color-primary);
   color: var(--color-primary-text);
@@ -83,13 +73,4 @@ body {
 }
 .btn:hover {
   background-color: var(--color-primary);
-}
-
-.select-date {
-  height: 50px;
-  border-radius: 25px;
-  border: 1px solid #f4511e;
-  padding: 0 20px;
-  font-size: 1.5em;
-  color: #f4511e;
 }
