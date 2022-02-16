@@ -1,17 +1,22 @@
-export default function Card_25() {
+// import List from "";
+// import cardItem from "../components/cards/cardItem.js";
+export default function Card_25(props) {
+  function checkActive() {
+    props.isActive === true ? "active" : "";
+  }
   return (
     <>
       <div className="card left-25 column bg-white r1-margin r2-padding px-35-border-radius">
         <div className="main-system">
           <h2>Main System</h2>
-          <div className="row active">
-            <i className="fa fas dashboard"></i>
-            <span>Dashboard</span>
-          </div>
-          <div className="row">
-            <i className="fa fas orders"></i>
-            <span>Orders</span>
-          </div>
+          <cardItem
+            name="Dashboard"
+            class="fa fas dashboard"
+            isActive={checkActive()}
+          />
+          <cardItem name="Orders" class="fa fas orders" isActive="" />
+          <cardItem name="Orders" class="fa fas orders" isActive="" />
+
           <div className="row">
             <i className="fa fas analytics"></i>
             <span>Analytics</span>

@@ -9,12 +9,15 @@ export default function Home() {
       <Head>
         <title>Basic HTML</title>
       </Head>
+
+      {/* Header */}
       <Header />
       <hr />
+
       {/* <!-- Body Content --> */}
       <div id="body-content" className="row">
         <Card_25 />
-        <Card_75>Hello World</Card_75>
+        <Card_75></Card_75>
       </div>
     </>
   );
