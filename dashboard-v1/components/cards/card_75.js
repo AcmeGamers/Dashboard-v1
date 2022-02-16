@@ -5,7 +5,6 @@ export default function Card_75({ parentData }) {
         <div>
           <h1>Dashboard</h1>
           <input className="select-date" />
-
           {/* {parentData.map((item, index) => {})} */}
         </div>
       </div>

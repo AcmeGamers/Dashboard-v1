@@ -1,6 +1,5 @@
 // import List from "";
 import CardItem from "./cardItem";
-import Link from "next/link";
 export default function Card_25(props) {
   var dashboard = props.isActive == "dashboard" ? "active" : "",
     orders = props.isActive == "orders" ? "active" : "",
@@ -16,38 +15,28 @@ export default function Card_25(props) {
       <div className="card left-25 column bg-white r1-margin r2-padding px-35-border-radius">
         <div className="main-system">
           <h2>Main System</h2>
-          <Link href="/" passHref>
-            <CardItem
-              name="Dashboard"
-              class="fa fas dashboard"
-              isActive={dashboard}
-            />
-          </Link>
-          <Link href="/orders" passHref>
-            <CardItem name="Orders" class="fa fas orders" isActive={orders} />
-          </Link>
 
-          <Link href="/analytics" passHref>
-            <CardItem
-              name="Analytics"
-              class="fa fas analytics"
-              isActive={analytics}
-            />
-          </Link>
-          <Link href="/messages" passHref>
-            <CardItem
-              name="Messages"
-              class="fa fas messages"
-              isActive={messages}
-            />
-          </Link>
-          <Link href="/support" passHref>
-            <CardItem
-              name="Support"
-              class="fa fas support"
-              isActive={support}
-            />
-          </Link>
+          <CardItem
+            name="Dashboard"
+            class="fa fas dashboard"
+            isActive={dashboard}
+          />
+
+          <CardItem name="Orders" class="fa fas orders" isActive={orders} />
+
+          <CardItem
+            name="Analytics"
+            class="fa fas analytics"
+            isActive={analytics}
+          />
+
+          <CardItem
+            name="Messages"
+            class="fa fas messages"
+            isActive={messages}
+          />
+
+          <CardItem name="Support" class="fa fas support" isActive={support} />
         </div>
         <div className="integration">
           <h2>Integration</h2>
