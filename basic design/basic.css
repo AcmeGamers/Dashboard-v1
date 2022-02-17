@@ -71,24 +71,30 @@ hr {
   padding: 1rem;
   border-radius: 12px;
   margin: 10px 0;
+  cursor: pointer;
+  color: var(--color-primary);
 }
 .main-system div:hover,
 .integration div:hover {
-  background: var(--grey-color);
+  background: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 .main-system div.active,
 .integration div.active {
   font-weight: 800;
-  background: var(--grey-color-active) !important;
+  background: var(--color-secondary-dark) !important;
+  color: var(--color-primary);
 }
 
 /* Table */
 table {
-  /* border-collapse: collapse; */
   border-spacing: 0 15px;
+  text-align: left;
 }
-
+th {
+  width: 0px;
+}
 th,
 td {
   margin: 18px 0;
@@ -105,6 +111,6 @@ td:last-child {
 }
 
 td {
-  background: var(--grey-color-active);
+  background: var(--color-secondary-dark);
   color: var(--color-primary);
 }
