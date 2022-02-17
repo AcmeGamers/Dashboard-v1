@@ -1,3 +1,3 @@
-export default function TableCell() {
-  return <></>;
+export default function TableCell(props) {
+  return <tr>{props.children}</tr>;
 }

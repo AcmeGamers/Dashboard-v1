@@ -107,3 +107,9 @@ hr {
   font-weight: 800;
   background: #ebe9e9 !important;
 }
+
+/* Table */
+table {
+  border-collapse: collapse;
+  ;
+}
