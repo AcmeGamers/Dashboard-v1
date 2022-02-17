@@ -13,8 +13,17 @@ export default function Home() {
       <div id="body-content" className="row">
         <Card_25 isActive="dashboard" />
         <Card_75 title="Dashboard">
-          <h1>Hello World</h1>
-          <h1>Hello World</h1>
+          <div>
+            <div>
+              <div></div>
+              <div></div>
+            </div>
+            <div>
+              <div></div>
+              <div></div>
+            </div>
+            <div></div>
+          </div>
         </Card_75>
       </div>
     </>
