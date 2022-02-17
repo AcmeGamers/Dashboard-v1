@@ -1,5 +1,5 @@
-import TableCell from "../components/table/table_cell";
-import TableHeader from "../components/table/table_header";
+import TableCell from "./table_cell";
+import TableHeader from "./table_header";
 
 const DUMMY_ORDERS = [
   {
