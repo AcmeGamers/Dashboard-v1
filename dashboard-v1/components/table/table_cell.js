@@ -1,3 +1,3 @@
 export default function TableCell(props) {
-  return <tr>{props.children}</tr>;
+  return <tr className="bg-main text-white">{props.children}</tr>;
 }
