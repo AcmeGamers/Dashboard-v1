@@ -114,3 +114,12 @@ td {
   background: var(--color-secondary-dark);
   color: var(--color-primary);
 }
+
+.card {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 20px;
+}
+.card > p {
+  margin: 0;
+}

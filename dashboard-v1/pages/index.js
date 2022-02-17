@@ -3,6 +3,29 @@ import Card_25 from "../components/cards/card_25";
 import Card_75 from "../components/cards/card_75";
 import Card from "../components/dashboard/card";
 
+const DUMMY_DATA = {
+  Customers: {
+    key: 1,
+    count: "91,241",
+    type: "Data for this month",
+  },
+  Orders: {
+    key: 2,
+    count: "111,241",
+    type: "Data for this month",
+  },
+  Products: {
+    key: 3,
+    count: "1,241",
+    type: "Data for this month",
+  },
+  Sales: {
+    key: 4,
+    count: "101,241",
+    type: "Data for this month",
+  },
+};
+
 export default function Home() {
   return (
     <>
@@ -15,33 +38,33 @@ export default function Home() {
         <Card_25 isActive="dashboard" />
         <Card_75 title="Dashboard">
           <div className="row">
-            <div>
+            <div style={{ width: "50%" }}>
               <div className="row">
                 <Card
                   title="Customers"
-                  count="91,231"
-                  type="Data for this month"
+                  count={DUMMY_DATA.Customers.count}
+                  type={DUMMY_DATA.Customers.type}
                 />
                 <Card
-                  title="Customers"
-                  count="91,231"
-                  type="Data for this month"
+                  title="Orders"
+                  count={DUMMY_DATA.Orders.count}
+                  type={DUMMY_DATA.Orders.type}
                 />
               </div>
               <div className="row">
                 <Card
-                  title="Customers"
-                  count="91,231"
-                  type="Data for this month"
+                  title="Products"
+                  count={DUMMY_DATA.Products.count}
+                  type={DUMMY_DATA.Products.type}
                 />
                 <Card
-                  title="Customers"
-                  count="91,231"
-                  type="Data for this month"
+                  title="Sales"
+                  count={DUMMY_DATA.Sales.count}
+                  type={DUMMY_DATA.Sales.type}
                 />
               </div>
             </div>
-            <div>
+            <div style={{ width: "50%" }}>
               <div className="chart">Chart</div>
             </div>
           </div>
