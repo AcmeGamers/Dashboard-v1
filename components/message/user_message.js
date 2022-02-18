@@ -1,6 +1,6 @@
-import Image from "next/image";
-
 export default function UserMessage(props) {
+  var message = props.message.slice(0, 25) + " ...";
+
   return (
     <div className="row">
       {/* <Image src={props.URL}></Image> */}
@@ -14,11 +14,11 @@ export default function UserMessage(props) {
         }}
       />
       <div className="column">
-        <div className="row">
+        <div className="row space-between">
           <div>{props.name}</div>
           <div>{props.time}</div>
         </div>
-        <div>{props.message}</div>
+        <div>{message}</div>
       </div>
     </div>
   );
