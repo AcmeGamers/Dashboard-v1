@@ -9,32 +9,35 @@ const DUMMY_DATA = [
     name: "Acme Gamers",
     message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     time: "2:00 PM",
-    URL: "../../../basic design/peakpx.jpg",
+    URL: "https://i.pinimg.com/originals/27/88/86/278886d6594b0a37f48bc1856c7da210.png",
   },
   {
     key: 2,
     name: "Acme Gamers",
     message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     time: "2:00 PM",
-    URL: "../../../basic design/peakpx.jpg",
+    URL: "https://i.pinimg.com/originals/27/88/86/278886d6594b0a37f48bc1856c7da210.png",
   },
   {
     key: 3,
     name: "Acme Gamers",
     message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     time: "2:00 PM",
+    URL: "https://i.pinimg.com/originals/27/88/86/278886d6594b0a37f48bc1856c7da210.png",
   },
   {
     key: 4,
     name: "Acme Gamers",
     message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     time: "2:00 PM",
+    URL: "https://i.pinimg.com/originals/27/88/86/278886d6594b0a37f48bc1856c7da210.png",
   },
   {
     key: 5,
     name: "Acme Gamers",
     message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     time: "2:00 PM",
+    URL: "https://i.pinimg.com/originals/27/88/86/278886d6594b0a37f48bc1856c7da210.png",
   },
 ];
 
@@ -61,7 +64,7 @@ export default function Messages() {
             {DUMMY_DATA.map((user) => (
               <UserMessage
                 key={user.key}
-                profile={user.URL}
+                URL={user.URL}
                 name={user.name}
                 message={user.message}
                 time={user.time}
