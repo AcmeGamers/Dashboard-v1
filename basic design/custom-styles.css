@@ -43,6 +43,9 @@
 .verti-center {
   align-items: center;
 }
+.verti-space {
+  justify-content: space-between;
+}
 .space-between {
   justify-content: space-between;
 }

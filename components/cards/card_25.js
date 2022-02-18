@@ -13,42 +13,52 @@ export default function Card_25(props) {
 
   return (
     <>
-      <div className="card left-25 column bg-white r1-margin r2-padding px-35-border-radius">
-        <div className="main-system">
-          <h2>Main System</h2>
+      <div className="card left-25 column bg-white r1-margin r2-padding px-35-border-radius verti-space">
+        <div className="column">
+          <div className="main-system">
+            <h2>Main System</h2>
 
-          <CardItem
-            name="Dashboard"
-            class="fa fas dashboard"
-            isActive={dashboard}
-          />
+            <CardItem
+              name="Dashboard"
+              class="fa fas dashboard"
+              isActive={dashboard}
+            />
 
-          <CardItem name="Orders" class="fa fas orders" isActive={orders} />
+            <CardItem name="Orders" class="fa fas orders" isActive={orders} />
 
-          <CardItem
-            name="Analytics"
-            class="fa fas analytics"
-            isActive={analytics}
-          />
+            <CardItem
+              name="Analytics"
+              class="fa fas analytics"
+              isActive={analytics}
+            />
 
-          <CardItem
-            name="Messages"
-            class="fa fas messages"
-            isActive={messages}
-          />
+            <CardItem
+              name="Messages"
+              class="fa fas messages"
+              isActive={messages}
+            />
 
-          <CardItem name="Support" class="fa fas support" isActive={support} />
-        </div>
-        <div className="integration">
-          <h2>Integration</h2>
-          <CardItem name="Google" class="fa fas google" isActive={google} />
-          <CardItem
-            name="Facebook"
-            class="fa fas facebook"
-            isActive={facebook}
-          />
+            <CardItem
+              name="Support"
+              class="fa fas support"
+              isActive={support}
+            />
+          </div>
+          <div className="integration">
+            <h2>Integration</h2>
+            <CardItem name="Google" class="fa fas google" isActive={google} />
+            <CardItem
+              name="Facebook"
+              class="fa fas facebook"
+              isActive={facebook}
+            />
 
-          <CardItem name="Mailchimp" class="fa fas mail" isActive={mailchimp} />
+            <CardItem
+              name="Mailchimp"
+              class="fa fas mail"
+              isActive={mailchimp}
+            />
+          </div>
         </div>
         <Link href="/integration/add" passHref>
           <button className="btn full-width">Add more integration</button>
