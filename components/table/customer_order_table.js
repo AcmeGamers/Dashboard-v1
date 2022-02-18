@@ -62,7 +62,7 @@ const DUMMY_ORDERS = [
 export default function CustomerOrderTable() {
   return (
     <table className="px-35-border-radius" id="myTable">
-      <TableCell>
+      <TableCell className="bg-main">
         <TableHeader>Customer Name</TableHeader>
         <TableHeader>Order ID</TableHeader>
         <TableHeader>Product Name</TableHeader>
