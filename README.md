@@ -1,6 +1,9 @@
 # Dashboard-v1
 
 Making dashboard V1. Application for Mobile/Web/Desktop
+https://dashboard-version-1.herokuapp.com/
+
+Currently it is in development and not finished, but it will update as time goes by.
 
 ## Purpose
 
@@ -11,3 +14,4 @@ Making dashboard V1. Application for Mobile/Web/Desktop
 - Support
 - Notifications
 - Recipts
+
