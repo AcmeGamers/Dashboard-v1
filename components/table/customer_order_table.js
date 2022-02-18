@@ -81,15 +81,6 @@ export default function CustomerOrderTable() {
           <td>{order.Address}</td>
         </TableCell>
       ))}
-
-      <TableCell>
-        <td>Hello</td>
-        <td>Hi</td>
-        <td>How ya Doing</td>
-        <td>Meh Doing just fine</td>
-        <td>Great!</td>
-        <td>We all can talk now uwu</td>
-      </TableCell>
     </table>
   );
 }
