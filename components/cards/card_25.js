@@ -50,7 +50,7 @@ export default function Card_25(props) {
 
           <CardItem name="Mailchimp" class="fa fas mail" isActive={mailchimp} />
         </div>
-        <Link href="/integration/add">
+        <Link href="/integration/add" passHref>
           <button className="btn full-width">Add more integration</button>
         </Link>
       </div>
