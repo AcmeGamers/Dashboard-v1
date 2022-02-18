@@ -85,10 +85,10 @@ export default function CustomerOrderTable() {
       <TableCell>
         <td>Hello</td>
         <td>Hi</td>
-        <td>How'cha Doing</td>
-        <td>How'cha Doing</td>
-        <td>How'cha Doing</td>
-        <td>How'cha Doing</td>
+        <td>How ya Doing</td>
+        <td>Meh Doing just fine</td>
+        <td>Great!</td>
+        <td>We all can talk now uwu</td>
       </TableCell>
     </table>
   );
