@@ -123,3 +123,15 @@ td {
 .card > p {
   margin: 0;
 }
+
+/* Messages */
+.inbox,
+.message {
+  border: 1px solid;
+  height: 100vh;
+}
+.inbox {
+  margin: 0 30px 0 0;
+}
+.message {
+}

@@ -11,6 +11,7 @@ export default function UserMessage(props) {
           height: "50px",
           borderRadius: "25px",
           backgroundSize: "contain",
+          marginRight: "10px",
         }}
       />
       <div className="column">
@@ -18,7 +19,7 @@ export default function UserMessage(props) {
           <div>{props.name}</div>
           <div>{props.time}</div>
         </div>
-        <div>{message}</div>
+        <div style={{ fontSize: "13px" }}>{message}</div>
       </div>
     </div>
   );

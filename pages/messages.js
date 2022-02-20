@@ -60,18 +60,20 @@ export default function Messages() {
             </button>
           }
         >
-          <div className="inbox">
-            {DUMMY_DATA.map((user) => (
-              <UserMessage
-                key={user.key}
-                URL={user.URL}
-                name={user.name}
-                message={user.message}
-                time={user.time}
-              />
-            ))}
+          <div className="row">
+            <div className="inbox width-35 px-35-border-radius">
+              {DUMMY_DATA.map((user) => (
+                <UserMessage
+                  key={user.key}
+                  URL={user.URL}
+                  name={user.name}
+                  message={user.message}
+                  time={user.time}
+                />
+              ))}
+            </div>
+            <div className="message width-65 px-35-border-radius"></div>
           </div>
-          <div className="message"></div>
         </Card_75>
       </div>
     </>

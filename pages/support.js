@@ -12,7 +12,14 @@ export default function Support() {
       {/* <!-- Body Content --> */}
       <div id="body-content" className="row">
         <Card_25 isActive="support" />
-        <Card_75 title="Support">
+        <Card_75
+          title="Support"
+          extraData={
+            <button className="btn" style={{ marginLeft: "50px" }}>
+              Create Ticket
+            </button>
+          }
+        >
           <h1>Hello World</h1>
           <h1>Hello World</h1>
         </Card_75>
