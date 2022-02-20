@@ -20,42 +20,50 @@ export default function Card_25(props) {
 
             <CardItem
               name="Dashboard"
-              class="fa fas dashboard"
+              image="icons/dashboard.png"
               isActive={dashboard}
             />
 
-            <CardItem name="Orders" class="fa fas orders" isActive={orders} />
+            <CardItem
+              name="Orders"
+              image="icons/shopping_bag.png"
+              isActive={orders}
+            />
 
             <CardItem
               name="Analytics"
-              class="fa fas analytics"
+              image="icons/analysis.png"
               isActive={analytics}
             />
 
             <CardItem
               name="Messages"
-              class="fa fas messages"
+              image="icons/messages.png"
               isActive={messages}
             />
 
             <CardItem
               name="Support"
-              class="fa fas support"
+              image="icons/support.png"
               isActive={support}
             />
           </div>
           <div className="integration">
             <h2>Integration</h2>
-            <CardItem name="Google" class="fa fas google" isActive={google} />
+            <CardItem
+              name="Google"
+              image="icons/google.png"
+              isActive={google}
+            />
             <CardItem
               name="Facebook"
-              class="fa fas facebook"
+              image="icons/facebook.png"
               isActive={facebook}
             />
 
             <CardItem
               name="Mailchimp"
-              class="fa fas mail"
+              image="icons/mailchimp.png"
               isActive={mailchimp}
             />
           </div>

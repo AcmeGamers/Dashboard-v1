@@ -36,8 +36,17 @@ export default function CardItem(props) {
   return (
     <>
       <Link href={data} passHref>
-        <div className={"row " + props.isActive}>
-          <i className={props.class}></i>
+        <div className={"row verti-center " + props.isActive}>
+          <div
+            style={{
+              background: `url(${props.image})`,
+              backgroundSize: "contain",
+              margin: 0,
+              marginRight: "10px",
+              backgroundRepeat: "no-repeat",
+              width: "35px",
+            }}
+          ></div>
           <span>{props.name}</span>
         </div>
       </Link>
