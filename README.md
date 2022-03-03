@@ -14,6 +14,8 @@ Currently it is in development and not finished, but it will update as time goes
 - Support
 - Notifications
 - Recipts
+- Takes API and then directly gets your data
+
 
 # Next JS
 
