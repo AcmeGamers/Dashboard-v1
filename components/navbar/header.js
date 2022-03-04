@@ -7,10 +7,14 @@ export default function Header() {
         <div className="logo">Analytica</div>
         {/* <!-- Search Bar --> */}
         <div className="search-bar">
-          <label htmlFor="search">
+          <label htmlFor="searchbar">
             <i className="fa fas search"></i>
-
-            <input type="text" id="search" placeholder="Search" />
+            <input
+              id="searchbar"
+              type="text"
+              class="search"
+              placeholder="Search"
+            />
           </label>
         </div>
         {/* <!-- Profile --> */}

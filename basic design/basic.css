@@ -36,7 +36,7 @@ body {
   font-size: 1.5em;
   color: #f4511e;
 }
-#search {
+.search {
   height: 50px;
   width: 30vw;
   border-radius: 25px;

@@ -1,8 +1,8 @@
 export default function UserMessage(props) {
-  var message = props.message.slice(0, 25) + " ...";
+  var message = props.message.slice(0, 33) + " ...";
 
   return (
-    <div className="row">
+    <div className="row" style={{ margin: "20px 15px" }}>
       {/* <Image src={props.URL}></Image> */}
       <div
         style={{
@@ -14,7 +14,7 @@ export default function UserMessage(props) {
           marginRight: "10px",
         }}
       />
-      <div className="column">
+      <div className="column horiz-center">
         <div className="row space-between">
           <div>{props.name}</div>
           <div>{props.time}</div>

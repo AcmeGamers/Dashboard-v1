@@ -2,6 +2,7 @@ import Head from "next/head";
 import Card_25 from "../components/cards/card_25";
 import Card_75 from "../components/cards/card_75";
 import UserMessage from "../components/message/user_message";
+import SearchBar from "../components/search";
 
 const DUMMY_DATA = [
   {
@@ -62,6 +63,11 @@ export default function Messages() {
         >
           <div className="row">
             <div className="inbox width-35 px-35-border-radius">
+              <div>
+                {/* make a filterable search */}
+                <SearchBar />
+                <i className="fa fa-search" />
+              </div>
               {DUMMY_DATA.map((user) => (
                 <UserMessage
                   key={user.key}
