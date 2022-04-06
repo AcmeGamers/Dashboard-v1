@@ -3,7 +3,7 @@ export default function SearchBar() {
     <input
       type="text"
       placeholder="Search"
-      class="search"
+      className="search"
       style={{
         width: "90%",
         margin: "15px 15px 0",

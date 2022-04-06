@@ -12,7 +12,7 @@ export default function Header() {
             <input
               id="searchbar"
               type="text"
-              class="search"
+              className="search"
               placeholder="Search"
             />
           </label>
